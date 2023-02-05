@@ -3,7 +3,14 @@ html {
   height: 100%;
   margin: 0;
 }
-
+.logofix
+{
+    width: 100%;
+    max-width: 60px;
+    margin-top: 10px;
+    float: left;
+    height: auto;
+}
 .bgimg {
   background-image: url("../img/bg.jpg");
   height: 100%;
