@@ -17,14 +17,23 @@
     body {
         overflow-x: hidden !important;
         font-family: "Itim", cursive !important;
-        scroll-behavior: smooth!important;
+        scroll-behavior: smooth !important;
     }
-    #iframecss
-    {
+
+    #iframecss {
         width: 100%;
         min-width: 500px;
         height: auto;
         min-height: 500px;
+    }
+
+    @media screen and (max-width: 962px) {
+        #iframecss {
+            width: 60%!important;
+            min-width: 400px;
+            height: auto;
+            min-height: 500px;
+        }
     }
 </style>
 
@@ -259,7 +268,9 @@
                 <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Get In Touch
                 </h1>
                 <div class="mb-8 leading-relaxed">
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSemG5LpuOKJs7fBsZDUJQi9H6xZtbpotWwLPGr6PbhfaALEtg/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0" id="iframecss">Loading…</iframe>
+                    <iframe
+                        src="https://docs.google.com/forms/d/e/1FAIpQLSemG5LpuOKJs7fBsZDUJQi9H6xZtbpotWwLPGr6PbhfaALEtg/viewform?embedded=true"
+                        frameborder="0" marginheight="0" marginwidth="0" id="iframecss">Loading…</iframe>
                 </div>
             </div>
             <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
