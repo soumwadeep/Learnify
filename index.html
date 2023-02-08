@@ -29,7 +29,7 @@
 
     @media screen and (max-width: 962px) {
         #iframecss {
-            width: 60%!important;
+            width: 60% !important;
             min-width: 400px;
             height: auto;
             min-height: 500px;
@@ -40,8 +40,8 @@
 <body>
     <header class="text-gray-600 body-font">
         <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-            <a
-                class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0" href="index.html">
+            <a class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0"
+                href="index.html">
                 <img src="img/icon.png" alt="logo" class="w-16 rounded-full">
                 <span class="ml-3 text-3xl">Learnify</span>
             </a>
@@ -54,14 +54,14 @@
             </nav>
 
             <div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
-                <button
-                    class="inline-flex items-center bg-yellow-500 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Log
-                    In
-                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                        stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
-                        <path d="M5 12h14M12 5l7 7-7 7"></path>
-                    </svg>
-                </button>
+                <a href="dashboard/index.html"><button
+                        class="inline-flex items-center bg-yellow-500 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Log
+                        In
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </button></a>
             </div>
         </div>
     </header>
@@ -195,14 +195,14 @@
                                 </svg>
                             </span>Quizzes with real time results along with feedback
                         </p>
-                        <button
-                            class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-1/2 focus:outline-none hover:bg-gray-500 rounded-full">Go
-                            For It
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
-                                <path d="M5 12h14M12 5l7 7-7 7"></path>
-                            </svg>
-                        </button>
+                        <a href="dashboard/index.html"><button
+                                class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-1/2 focus:outline-none hover:bg-gray-500 rounded-full">Go
+                                For It
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                </svg>
+                            </button></a>
                         <p class="text-xs text-gray-500 mt-3">.</p>
                     </div>
                 </div>
@@ -245,7 +245,8 @@
                             </span>Advanced oraganised quizzes with real time feedback
                         </p>
                         <button
-                            class="flex items-center mt-auto text-white bg-yellow-500 border-0 py-2 px-4 w-1/2 focus:outline-none hover:bg-yellow-600 rounded-full">Go
+                            class="flex items-center mt-auto text-white bg-yellow-500 border-0 py-2 px-4 w-1/2 focus:outline-none hover:bg-yellow-600 rounded-full"
+                            onclick=showMessage()>Go
                             For It
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                 stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
@@ -282,7 +283,8 @@
     <!-- footer -->
     <footer class="text-gray-600 body-font">
         <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-            <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900" href="index.html">
+            <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
+                href="index.html">
                 <img src="img/icon.png" alt="logo" class="w-16 text-white p-2 rounded-full">
                 <span class="ml-3 text-xl">Learnify</span>
             </a>
@@ -338,6 +340,11 @@
         })();
     </script>
     <!--End of Tawk.to Script-->
+    <script>
+        function showMessage() {
+            alert("Website Under Construction!");
+        }
+    </script>
 </body>
 
 </html>
