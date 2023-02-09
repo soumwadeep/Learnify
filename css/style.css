@@ -1,56 +1,56 @@
-body,
-html {
-    height: 100%;
-    margin: 0;
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+
+body {
+    font-family: "Itim", cursive;
+    /* background-color: #fbab7e; */
 }
 
-.logofix {
+/* #login {
+    margin-top: 30px;
+} */
+.logofix
+{
     width: 100%;
-    max-width: 60px;
-    margin-top: 10px;
-    float: left;
+    max-width: 300px;
     height: auto;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 15px;
 }
-
-@media screen and (max-width: 962px) {
-    .logofix {
-        width: 45px;
-    }
-
+#formcss {
+    margin-top: 1.5%;
+    width: 100%;
+    height: auto;
+    background-color: #fbab7e;
+    background-image: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%);
+    color: #fff;
+    padding: 20px;
+    border-radius: 15px;
 }
-
-.bgimg {
-    background-image: url("../img/bg.jpg");
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    color: white;
-    font-family: "Courier New", Courier, monospace;
-    font-size: 25px;
-}
-
-.topleft {
-    position: absolute;
-    top: 0;
-    left: 16px;
-}
-
-.bottomleft {
-    position: absolute;
-    bottom: 0;
-    left: 16px;
-}
-
-.middle {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.footer
+{
+    margin-top: 20px;
     text-align: center;
 }
-
-hr {
-    margin: auto;
-    width: 40%;
+a
+{
+    text-decoration: none;
+    color: #fbab7e;
+}
+.loginimgfix
+{
+    width: 100%;
+    max-width: 540px;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 15px;
+    /* margin-top: 10px; */
+}
+@media screen and (max-width: 962px) 
+{
+    .loginimgfix
+    {
+        margin-top: 30px;
+    }
 }
