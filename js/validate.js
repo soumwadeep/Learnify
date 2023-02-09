@@ -32,7 +32,7 @@ onAuthStateChanged(auth, (user) => {
     // ...
   } else {
     // User is signed out
-    window.location.href = "https://learnify.software/";
+    window.location.href = "../login.html";
     // ...
   }
 });
@@ -42,7 +42,7 @@ logOut.addEventListener("click", (e) => {
     .then(() => {
       // Sign-out successful.
       alert("Bye! We Hope To Meet You Soon Again!");
-      window.location.href = "https://learnify.software/";
+      window.location.href = "../login.html";
     })
     .catch((error) => {
       // An error happened.
