@@ -1,14 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Itim&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
 
 body {
-    font-family: "Itim", cursive;
+    font-family: 'Paytone One', sans-serif !important;
+    background-image: url("../img/bg.gif") !important;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    color: white!important;
     /* background-color: #fbab7e; */
 }
+
 /* #login {
     margin-top: 30px;
 } */
-.logofix
-{
+.logofix {
     width: 100%;
     max-width: 300px;
     height: auto;
@@ -16,8 +21,10 @@ body {
     object-position: center;
     border-radius: 15px;
 }
+
 #formcss {
     margin-top: 1.5%;
+    max-width: 400px;
     width: 100%;
     height: auto;
     background-color: #fbab7e;
@@ -25,19 +32,20 @@ body {
     color: #fff;
     padding: 20px;
     border-radius: 15px;
+    text-align: left;
 }
-.footer
-{
+
+.footer {
     margin-top: 20px;
     text-align: center;
 }
-a
-{
+
+a {
     text-decoration: none;
     color: #fbab7e;
 }
-.loginimgfix
-{
+
+.loginimgfix {
     width: 100%;
     max-width: 540px;
     height: auto;
@@ -46,10 +54,9 @@ a
     border-radius: 15px;
     /* margin-top: 10px; */
 }
-@media screen and (max-width: 962px) 
-{
-    .loginimgfix
-    {
+
+@media screen and (max-width: 962px) {
+    .loginimgfix {
         margin-top: 30px;
     }
 }

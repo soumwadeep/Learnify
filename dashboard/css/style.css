@@ -18,6 +18,14 @@ html {
     width: 100%;
     height: auto;
 }
+.imgsmallfix
+{
+    width: 100%;
+    max-width: 500px;
+    border-radius: 15px;
+    height: auto;
+    margin-bottom: 20px;
+}
 .iframevidcss
 {
   width: 100%;
