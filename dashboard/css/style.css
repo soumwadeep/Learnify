@@ -13,39 +13,39 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   overflow-x: hidden !important;
 }
-.imgfix
-{
-    width: 100%;
-    height: auto;
+
+.imgfix {
+  width: 100%;
+  height: auto;
 }
-.imgsmallfix
-{
-    width: 100%;
-    max-width: 500px;
-    border-radius: 15px;
-    height: auto;
-    margin-bottom: 20px;
+
+.imgsmallfix {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 15px;
+  height: auto;
+  margin-bottom: 20px;
 }
-.iframevidcss
-{
+
+.iframevidcss {
   width: 100%;
   height: auto;
   min-height: 80vh;
 }
-.iframepdfcss
-{
+
+.iframepdfcss {
   width: 100%;
   max-width: 800px;
   height: auto;
   min-height: 500px;
 }
-@media screen and (max-width: 962px) 
-{
-    .iframevidcss
-    {
-        min-height: 315px;
-    }
+
+@media screen and (max-width: 962px) {
+  .iframevidcss {
+    min-height: 315px;
+  }
 }
+
 article,
 aside,
 figcaption,
@@ -75,6 +75,12 @@ body {
 
 [tabindex="-1"]:focus {
   outline: 0 !important;
+}
+
+.iframefix {
+  width: 100%;
+  height: auto;
+  min-height: 60vh;
 }
 
 hr {

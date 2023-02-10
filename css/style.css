@@ -5,8 +5,8 @@ body {
     font-family: 'Paytone One', sans-serif !important;
     background-image: url("../img/bg.gif") !important;
     background-repeat: no-repeat !important;
-    background-size: cover;
-    color: white!important;
+    background-size: cover !important;
+    color: white !important;
     /* background-color: #fbab7e; */
 }
 
@@ -58,5 +58,9 @@ a {
 @media screen and (max-width: 962px) {
     .loginimgfix {
         margin-top: 30px;
+    }
+
+    body {
+        background-repeat: repeat-y !important;
     }
 }

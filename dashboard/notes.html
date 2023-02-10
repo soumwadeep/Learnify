@@ -1,85 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Dashboard | Notes</title>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="description" content="Welcome To Learnify's Notes Section!" />
-    <meta name="keywords" content="cloud,e-Learning,learnify" />
-    <meta
-      name="author"
-      content="Soumwadeep Guha, Rohan Sharma & Manjeet Sharma"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900"
-      rel="stylesheet"
-    />
-    <link rel="icon" href="../img/relicon.png" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
 
-  <body>
-    <div class="wrapper d-flex align-items-stretch">
-      <nav id="sidebar" class="active">
-        <div class="custom-menu">
-          <button type="button" id="sidebarCollapse" class="btn btn-primary">
-            <i class="fa fa-bars"></i>
-            <span class="sr-only">Toggle Menu</span>
-          </button>
-        </div>
-        <div class="p-4">
-          <h1><a href="../index.html" class="logo">Learnify</a></h1>
-          <ul class="list-unstyled components mb-5" id="addlicss">
-            <li>
-              <a href="index.html">
-                <span class="fa fa-home mr-3"></span>
-                Home
-              </a>
-            </li>
-            <li>
-              <a href="videos.html">
-                <span class="fa fa-play mr-3"></span>
-                Videos
-              </a>
-            </li>
-            <li class="active">
-              <a href="notes.html">
-                <span class="fa fa-book mr-3"></span>
-                Notes
-              </a>
-            </li>
-            <li>
-              <a href="articles.html">
-                <span class="fa fa-file-text mr-3"></span>
-                Articles
-              </a>
-            </li>
-            <li>
-              <a href="quizzes.html">
-                <span class="fa fa-paper-plane mr-3"></span>
-                Quizzes
-              </a>
-            </li>
-            <li>
-              <a href="#" id="logOut">
-                <span class="fa fa-sign-out mr-3"></span>
-                Logout
-              </a>
-            </li>
-          </ul>
+<head>
+  <title>Dashboard | Notes</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="Welcome To Learnify's Notes Section!" />
+  <meta name="keywords" content="cloud,e-Learning,learnify" />
+  <meta name="author" content="Soumwadeep Guha, Rohan Sharma & Manjeet Sharma" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet" />
+  <link rel="icon" href="../img/relicon.png" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
 
-          <!-- <div class="mb-5">
+<body>
+  <div class="wrapper d-flex align-items-stretch">
+    <nav id="sidebar" class="active">
+      <div class="custom-menu">
+        <button type="button" id="sidebarCollapse" class="btn btn-primary">
+          <i class="fa fa-bars"></i>
+          <span class="sr-only">Toggle Menu</span>
+        </button>
+      </div>
+      <div class="p-4">
+        <h1><a href="../index.html" class="logo">Learnify</a></h1>
+        <ul class="list-unstyled components mb-5" id="addlicss">
+          <li>
+            <a href="index.html">
+              <span class="fa fa-home mr-3"></span>
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="videos.html">
+              <span class="fa fa-play mr-3"></span>
+              Videos
+            </a>
+          </li>
+          <li class="active">
+            <a href="notes.html">
+              <span class="fa fa-book mr-3"></span>
+              Notes
+            </a>
+          </li>
+          <li>
+            <a href="articles.html">
+              <span class="fa fa-file-text mr-3"></span>
+              Articles
+            </a>
+          </li>
+          <li>
+            <a href="quizzes.html">
+              <span class="fa fa-paper-plane mr-3"></span>
+              Quizzes
+            </a>
+          </li>
+          <li>
+            <a href="#" id="logOut">
+              <span class="fa fa-sign-out mr-3"></span>
+              Logout
+            </a>
+          </li>
+        </ul>
+
+        <!-- <div class="mb-5">
             <h3 class="h6 mb-3">Subscribe for newsletter</h3>
             <form action="#" class="subscribe-form">
               <div class="form-group d-flex">
@@ -93,62 +79,70 @@
             </form>
           </div> -->
 
-          <div class="footer">
-            <p>
-              Copyright &copy;
-              <script>
-                document.write(new Date().getFullYear());
-              </script>
-              Learnify. All Rights Reserved.
-            </p>
-          </div>
+        <div class="footer">
+          <p>
+            Copyright &copy;
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            Learnify. All Rights Reserved.
+          </p>
         </div>
-      </nav>
-
-      <!-- Page Content  -->
-      <div id="content" class="p-4 p-md-5 pt-5">
-        <div class="row">
-          <div class="col-sm">
-            <h2 class="mb-4">Notes</h2>
-            <h4>HandWritten Notes On DSA Using C</h4>
-            <p>
-              Handwritten notes have a special place in the world of writing and record-keeping. Not only do they add a personal touch to the information being recorded, but they also serve as a physical artifact of the writer's thoughts and ideas. Research has shown that the act of writing by hand can aid in memory retention and comprehension compared to typing on a keyboard. Handwritten notes can also be a creative outlet, allowing for the use of different colors, drawings, and symbols to emphasize important points. Despite the convenience of digital note-taking, there is still something undeniably special and irreplaceable about the feeling of holding a notebook and pen and jotting down ideas in your own unique script.
-            </p>
-          </div>
-          <div class="col-sm">
-            <img src="../img/home2.png" class="imgfix" alt="notes" />
-          </div>
-        </div>
-        <h1>Check Out The Notes Here:</h1>
-        <center>
-          <iframe
-            src="https://drive.google.com/file/d/1GWzMCHK7jemeBeo2v7iHBL3StgH7Hkoz/preview"
-            class="iframepdfcss"
-            allow="autoplay"
-          ></iframe>
-        </center>
       </div>
-    </div>
+    </nav>
 
-    <script src="js/jquery.min.js"></script>
-    <script src="js/popper.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/main.js"></script>
-    <script type="module" src="../js/validate.js"></script>
-    <!--Start of Tawk.to Script-->
-    <script type="text/javascript">
-      var Tawk_API = Tawk_API || {},
-        Tawk_LoadStart = new Date();
-      (function () {
-        var s1 = document.createElement("script"),
-          s0 = document.getElementsByTagName("script")[0];
-        s1.async = true;
-        s1.src = "https://embed.tawk.to/63e45525474251287912498b/1gopup7cn";
-        s1.charset = "UTF-8";
-        s1.setAttribute("crossorigin", "*");
-        s0.parentNode.insertBefore(s1, s0);
-      })();
-    </script>
-    <!--End of Tawk.to Script-->
-  </body>
+    <!-- Page Content  -->
+    <div id="content" class="p-4 p-md-5 pt-5">
+      <div class="row">
+        <div class="col-sm">
+          <h2 class="mb-4">Notes</h2>
+          <h4>HandWritten Notes On DSA Using C</h4>
+          <p>
+            Handwritten notes have a special place in the world of writing and record-keeping. Not only do they add a
+            personal touch to the information being recorded, but they also serve as a physical artifact of the writer's
+            thoughts and ideas. Research has shown that the act of writing by hand can aid in memory retention and
+            comprehension compared to typing on a keyboard. Handwritten notes can also be a creative outlet, allowing
+            for the use of different colors, drawings, and symbols to emphasize important points. Despite the
+            convenience of digital note-taking, there is still something undeniably special and irreplaceable about the
+            feeling of holding a notebook and pen and jotting down ideas in your own unique script.
+          </p>
+        </div>
+        <div class="col-sm">
+          <img src="../img/home2.png" class="imgfix" alt="notes" />
+        </div>
+      </div>
+      <h1>Check Out The Most Viewed Notes:</h1>
+      <center>
+        <iframe src="https://drive.google.com/file/d/1GWzMCHK7jemeBeo2v7iHBL3StgH7Hkoz/preview" class="iframepdfcss"
+          allow="autoplay"></iframe>
+        <br />
+        <h2>All Notes:</h2>
+        <iframe src="https://drive.google.com/embeddedfolderview?id=1nhIWYnYjHx_v5BQ9FW5yUKByM1ALc2Yp#grid" class="iframefix"></iframe>
+      </center>
+
+    </div>
+  </div>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+  <script type="module" src="../js/validate.js"></script>
+  <!--Start of Tawk.to Script-->
+  <script type="text/javascript">
+    var Tawk_API = Tawk_API || {},
+      Tawk_LoadStart = new Date();
+    (function () {
+      var s1 = document.createElement("script"),
+        s0 = document.getElementsByTagName("script")[0];
+      s1.async = true;
+      s1.src = "https://embed.tawk.to/63e45525474251287912498b/1gopup7cn";
+      s1.charset = "UTF-8";
+      s1.setAttribute("crossorigin", "*");
+      s0.parentNode.insertBefore(s1, s0);
+    })();
+  </script>
+  <!--End of Tawk.to Script-->
+</body>
+
 </html>
